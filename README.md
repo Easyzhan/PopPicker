@@ -1,7 +1,10 @@
 # PopPicker提神加薪
 
+
 ###单选,多选,默认选,各种选
+
 #用法:
+
 ###点击实践处:
 
     PopPickerView *picker = [[PopPickerView alloc] initWithHeaderTitle:@"重复设置" cancelButtonTitle:@"取消" confirmButtonTitle:@"确认"];
