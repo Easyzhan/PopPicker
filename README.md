@@ -1,18 +1,13 @@
 # PopPicker提神加薪
 
 
-###单选,多选,默认选,各种选
+## 单选,多选,默认选,各种选
 
-#用法
+# 用法
 
-###点击实践处
+### 点击事件处
 
-       
-       
-       
-       
-       
-       
+
     PopPickerView *picker = [[PopPickerView alloc] initWithHeaderTitle:@"重复设置" cancelButtonTitle:@"取消" confirmButtonTitle:@"确认"];
     picker.delegate = self;
     picker.dataSource = self;
@@ -21,7 +16,7 @@
     picker.selectedRows = @[@3];
     [picker show];
     
- ###代理方法:
+ ### 代理方法:
  
      - (NSAttributedString *)PopPickerView:(PopPickerView *)pickerView attributedTitleForRow:(NSInteger)row
       {
